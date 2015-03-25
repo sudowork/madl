@@ -4,6 +4,14 @@ grammar MADL;
  * PARSER RULES
  */
 
+sourceElements
+  : sourceElement+
+  ;
+
+sourceElement
+  : component
+  ;
+
 component
   : COMPONENT ID
   ;
