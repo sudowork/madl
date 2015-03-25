@@ -8,7 +8,7 @@ ANTLR_FLAGS=-o $(OUT_DIR) -package $(PKG_NAME)
 
 JAVAC=javac
 TARGET_DIR=target
-ANTLR_LIB=lib/antlr-4.5-complete.jar
+ANTLR_LIB=lib/antlr-4.4-complete.jar
 JAVAC_FLAGS=-d $(TARGET_DIR) -classpath $(ANTLR_LIB):$(CLASSPATH)
 
 all: antlr compile
