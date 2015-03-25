@@ -18,4 +18,24 @@ public interface MADLListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitComponent(@NotNull MADLParser.ComponentContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link MADLParser#sourceElements}.
+	 * @param ctx the parse tree
+	 */
+	void enterSourceElements(@NotNull MADLParser.SourceElementsContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link MADLParser#sourceElements}.
+	 * @param ctx the parse tree
+	 */
+	void exitSourceElements(@NotNull MADLParser.SourceElementsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link MADLParser#sourceElement}.
+	 * @param ctx the parse tree
+	 */
+	void enterSourceElement(@NotNull MADLParser.SourceElementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link MADLParser#sourceElement}.
+	 * @param ctx the parse tree
+	 */
+	void exitSourceElement(@NotNull MADLParser.SourceElementContext ctx);
 }

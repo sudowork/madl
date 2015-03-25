@@ -24,6 +24,30 @@ public class MADLBaseListener implements MADLListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitComponent(@NotNull MADLParser.ComponentContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterSourceElements(@NotNull MADLParser.SourceElementsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSourceElements(@NotNull MADLParser.SourceElementsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterSourceElement(@NotNull MADLParser.SourceElementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSourceElement(@NotNull MADLParser.SourceElementContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
